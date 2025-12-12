@@ -2,7 +2,7 @@ import React from 'react';
 import { Activity, Shield, Zap, Users, TrendingUp, Award } from 'lucide-react';
 
 interface LandingPageProps {
-    onNavigate: (page: 'login' | 'register' | 'dashboard') => void;
+    onNavigate: (page: 'login' | 'register' | 'tracker') => void;
 }
 
 export function LandingPage({ onNavigate }: LandingPageProps) {
@@ -58,10 +58,10 @@ export function LandingPage({ onNavigate }: LandingPageProps) {
                             Start Tracking
                         </button>
                         <button
-                            onClick={() => onNavigate('dashboard')}
+                            onClick={() => (window.location.href = '#features')}
                             className="px-8 py-4 bg-white text-gray-900 rounded-lg hover:bg-gray-50 font-medium text-lg transition-all shadow-md border-2 border-gray-200"
                         >
-                            View Demo
+                            Learn More
                         </button>
                     </div>
                 </div>

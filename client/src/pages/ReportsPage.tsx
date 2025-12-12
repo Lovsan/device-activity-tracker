@@ -3,7 +3,7 @@ import { BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Toolti
 import { TrendingUp, Award, Users, Target, Activity, Star } from 'lucide-react';
 
 interface ReportsPageProps {
-    onNavigate: (page: 'landing' | 'dashboard') => void;
+    onNavigate: (page: 'landing' | 'tracker') => void;
 }
 
 export function ReportsPage({ onNavigate }: ReportsPageProps) {
@@ -83,10 +83,10 @@ export function ReportsPage({ onNavigate }: ReportsPageProps) {
                                 Home
                             </button>
                             <button
-                                onClick={() => onNavigate('dashboard')}
+                                onClick={() => onNavigate('tracker')}
                                 className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium transition-colors shadow-md"
                             >
-                                Dashboard
+                                Tracker
                             </button>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ export function ReportsPage({ onNavigate }: ReportsPageProps) {
                                     cx="50%"
                                     cy="50%"
                                     labelLine={false}
-                                    label={({ name, percent }) => `${name}: ${((percent || 0) * 100).toFixed(0)}%`}
+                                    label={({ name, percent }) => `${name}: ${((percent || 0)).toFixed(1)}%`}
                                     outerRadius={100}
                                     fill="#8884d8"
                                     dataKey="value"

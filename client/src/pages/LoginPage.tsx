@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Activity, Lock, Mail, ArrowLeft } from 'lucide-react';
 
 interface LoginPageProps {
-    onNavigate: (page: 'landing' | 'register' | 'dashboard') => void;
+    onNavigate: (page: 'landing' | 'register' | 'tracker') => void;
     onLogin: () => void;
 }
 

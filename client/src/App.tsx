@@ -9,7 +9,7 @@ import { ReportsPage } from './pages/ReportsPage';
 
 export const socket: Socket = io('http://localhost:3001');
 
-type Page = 'landing' | 'login' | 'register' | 'dashboard' | 'tracker' | 'reports';
+type Page = 'landing' | 'login' | 'register' | 'tracker' | 'reports';
 
 function App() {
     const [isConnected, setIsConnected] = useState(socket.connected);
@@ -71,7 +71,7 @@ function App() {
     }
 
     // Render tracker dashboard (original functionality)
-    if (currentPage === 'tracker' || currentPage === 'dashboard') {
+    if (currentPage === 'tracker') {
         return (
             <div className="min-h-screen bg-gray-100 p-8">
                 <div className="max-w-6xl mx-auto">
