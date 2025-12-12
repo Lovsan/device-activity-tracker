@@ -1,0 +1,85 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern/Multi-tech Theme - Purple & Pink -->
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow3">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#grad3)"/>
+  
+  <!-- Animated grid pattern -->
+  <g opacity="0.15">
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#ffffff" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="400" stroke="#ffffff" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="400" stroke="#ffffff" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="400" stroke="#ffffff" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="400" stroke="#ffffff" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="400" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+  <!-- Main Content -->
+  <text x="600" y="90" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" filter="url(#shadow3)">
+    WE'RE HIRING!
+  </text>
+  
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="28" fill="#fae8ff" text-anchor="middle">
+    Full Stack • Security • Research
+  </text>
+  
+  <!-- Tech badges -->
+  <g transform="translate(250, 170)">
+    <rect x="0" y="0" width="120" height="45" rx="8" fill="#ffffff" opacity="0.2"/>
+    <text x="60" y="30" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">React</text>
+    
+    <rect x="140" y="0" width="120" height="45" rx="8" fill="#ffffff" opacity="0.2"/>
+    <text x="200" y="30" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Python</text>
+    
+    <rect x="280" y="0" width="120" height="45" rx="8" fill="#ffffff" opacity="0.2"/>
+    <text x="340" y="30" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Node.js</text>
+    
+    <rect x="420" y="0" width="120" height="45" rx="8" fill="#ffffff" opacity="0.2"/>
+    <text x="480" y="30" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Go</text>
+    
+    <rect x="560" y="0" width="120" height="45" rx="8" fill="#ffffff" opacity="0.2"/>
+    <text x="620" y="30" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Rust</text>
+  </g>
+  
+  <!-- Benefits -->
+  <g transform="translate(200, 245)">
+    <g>
+      <circle cx="15" cy="15" r="12" fill="#ffffff" opacity="0.3"/>
+      <text x="15" y="22" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">💰</text>
+      <text x="100" y="22" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Competitive Pay</text>
+    </g>
+    <g transform="translate(280, 0)">
+      <circle cx="15" cy="15" r="12" fill="#ffffff" opacity="0.3"/>
+      <text x="15" y="22" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🏠</text>
+      <text x="100" y="22" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Remote Work</text>
+    </g>
+    <g transform="translate(560, 0)">
+      <circle cx="15" cy="15" r="12" fill="#ffffff" opacity="0.3"/>
+      <text x="15" y="22" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle">🚀</text>
+      <text x="100" y="22" font-family="Arial, sans-serif" font-size="18" fill="#ffffff">Great Culture</text>
+    </g>
+  </g>
+  
+  <!-- Call to Action -->
+  <rect x="400" y="305" width="400" height="65" rx="32" fill="#ffffff" filter="url(#shadow3)"/>
+  <text x="600" y="347" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#8b5cf6" text-anchor="middle">
+    VIEW OPEN POSITIONS →
+  </text>
+  
+  <!-- Footer -->
+  <text x="600" y="390" font-family="Arial, sans-serif" font-size="14" fill="#fae8ff" text-anchor="middle">
+    careers@device-activity-tracker.com
+  </text>
+</svg>
